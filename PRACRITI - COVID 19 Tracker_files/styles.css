@@ -1,0 +1,231 @@
+<style>
+
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+} */
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: rgb(157,73,73);
+  color: white;
+  margin-bottom: 25px;
+  width:100%;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 25px;
+}
+
+a{
+color: white;
+}
+
+.anchor{
+color: rgb(157,73,73);
+}
+
+
+img.a{
+float: left;
+vertical-align: center;
+width:90px;
+height: 90px;
+}
+
+.footer {
+  padding: 20px;
+  background: rgb(157,73,73);
+  color: white;
+    width:100%;
+}
+
+.h6 {
+}
+
+
+.stop1 {
+  stop-color: yellow;
+}
+
+.stop2 {
+  stop-color: rgb(245,245,245);
+}
+
+.stop3 {
+  stop-color: rgb(165,42,42);
+}
+
+.state:hover {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.state {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="column"] {
+    width: 100%;
+    float: center;
+  }
+
+  [class*="column3"] {
+    width: 40%;
+    float: left;
+    margin-bottom:15px;
+  }
+}
+
+.column3{
+float:left;
+margin-bottom:1%;
+margin-left:5%;
+margin-right:5%;
+width: 15%;
+border-radius:10px;
+}
+
+#confirmed {
+background-color:rgb(255,149,150);
+}
+
+#active {
+background-color:rgb(246,204,105);
+}
+
+#recovered {
+background-color:rgb(159,233,155);
+}
+
+#deceased {
+background-color:rgb(168,205,252);
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="column2"] {
+    width: 100%;
+    float: center;
+  }
+}
+div .tooltip {
+
+}
+
+.tooltip{
+white-space: pre-line;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content div:hover {background-color: #f1f1f1;cursor: pointer;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.button {
+  background-color: white;
+  border: 1px solid rgb(157,73,73);
+  color: black;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(157,73,73);
+  color: white;
+}
+
+.button:focus {
+  background-color: rgb(157,73,73);
+  color: white;
+  outline:0px;
+}
+
+@font-face {
+font-family: 'Samarkan Normal';
+font-style: normal;
+font-weight: normal;
+src: local('Samarkan Normal'), url('SAMARN__.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Samarkan Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Samarkan Oblique'), url('SAMARO__.woff') format('woff');
+}
+
+@media only screen and (max-width: 600px) {
+
+  .column {width: 100%;}
+
+@media only screen and (min-width: 600px) {
+
+  .column {width: 50%;}
+
+
+</style>
