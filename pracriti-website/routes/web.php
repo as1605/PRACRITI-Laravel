@@ -14,9 +14,30 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('legacy');
+    return view('resources');
     //return view('welcome');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/prediction', function () {
+    return view('prediction');
+});
+
+Route::get('/resources', function () {
+    return view('resources');
+});
+
+Route::get('/resources/helplines', function () {
+    return view('helplines');
+});
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 
 Route::get('/legacy', function () {
     return view('legacy');

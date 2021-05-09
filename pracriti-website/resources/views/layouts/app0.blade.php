@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title') | PRACRITI 2.0 IITD</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -15,30 +15,11 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet" />
+
     <!-- Styles -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
-      rel="stylesheet"
-    />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <header class="p-3 text-white justify-content-center" style="background-color: #c21717;">
-        <div class="d-flex justify-content-center align-items-center">
-            <img class="m-2" style="width: 100px; height: 100px;" src="{{URL::asset('iitd_logo.png')}}" alt="IITD" id="iitd-logo" />
-            <div class="m-3" style="font-family: 'Samarkan Normal', 'Samarkan', sans-serif;"><h1>PRACRITI 2.0</h1></div>
-        </div>
-    </header>
-    <nav class="navbar navbar-expand">
-            <div class="container btn-group">                
-                <a class="btn btn-danger" href="{{url('/resources')}}">Resources</a>
-                <a class="btn btn-danger" href="{{url('/prediction')}}">Predictions</a>
-                <a class="btn btn-danger" href="{{url('/resources/helplines')}}">Covid Helplines</a>
-                <a class="btn btn-danger" href="{{url('/about')}}">About Us</a>
-            </div>
-    </nav> 
-    <!--
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -50,14 +31,14 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar 
+                    <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
 
                     </ul>
 
-                    <!-- Right Side Of Navbar 
+                    <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links 
+                        <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -90,8 +71,8 @@
                 </div>
             </div>
         </nav>
-        -->
-        <main>
+
+        <main class="py-4">
             @yield('content')
         </main>
     </div>

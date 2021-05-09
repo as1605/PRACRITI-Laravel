@@ -9,3 +9,4 @@
 
 ## To update prediction data
 * go to pracriti-website/public/js/legacy
+* old website is routed at /legacy
