@@ -24,19 +24,16 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <header class="p-3 text-white justify-content-center" style="background-color: #c21717;">
+    <header class="p-1 text-white justify-content-center" style="background-color: #c21717;">
         <div class="d-flex justify-content-center align-items-center">
-            <img class="m-2" style="width: 100px; height: 100px;" src="{{URL::asset('iitd_logo.png')}}" alt="IITD" id="iitd-logo" />
-            <div class="m-3" style="font-family: 'Samarkan Normal', 'Samarkan', sans-serif;"><h1>PRACRITI 2.0</h1></div>
+            <a target="_blank" href="http://iitd.ac.in/">
+                <img class="m-2" style="width: 50px; height: 50px;" src="{{URL::asset('iitd_logo.png')}}" alt="IITD" id="iitd-logo" />
+            </a>
+            <div class="m-2" style="font-family: 'Samarkan Normal', 'Samarkan', sans-serif;"><h1>PRACRITI 2.0</h1></div>
         </div>
     </header>
     <nav class="navbar navbar-expand">
-            <div class="container btn-group">                
-                <a class="btn btn-danger" href="{{url('/resources')}}">Resources</a>
-                <a class="btn btn-danger" href="{{url('/prediction')}}">Predictions</a>
-                <a class="btn btn-danger" href="{{url('/resources/helplines')}}">Covid Helplines</a>
-                <a class="btn btn-danger" href="{{url('/about')}}">About Us</a>
-            </div>
+        @yield('nav')
     </nav> 
     <!--
     <div id="app">
