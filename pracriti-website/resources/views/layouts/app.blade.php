@@ -15,24 +15,36 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet" />
     <!-- Styles -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
       rel="stylesheet"
     />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('iitd_logo.png') }}" rel="shortcut icon" type="image/png">
+    <style type="text/css">
+        @font-face {
+            font-family: 'Samarkan Normal';
+            font-style: normal;
+            font-weight: normal;
+            src: url("{{URL::asset('SAMARN__.woff')}}");
+        }
+    </style>
 </head>
 <body>
+    
     <header class="p-1 text-white justify-content-center" style="background-color: #c21717;">
         <div class="d-flex justify-content-center align-items-center">
             <a target="_blank" href="http://iitd.ac.in/">
                 <img class="m-2" style="width: 50px; height: 50px;" src="{{URL::asset('iitd_logo.png')}}" alt="IITD" id="iitd-logo" />
             </a>
-            <div class="m-2" style="font-family: 'Samarkan Normal', 'Samarkan', sans-serif;"><h1>PRACRITI 2.0</h1></div>
+            <div class="m-2" style="font-family: 'Samarkan Normal', 'Samarkan', sans-serif;"><h1>PRACRITI 2.0</h1></div>        
         </div>
     </header>
-
+    <nav class="navbar navbar-expand pb-0">
+    <a href="{{url('/internal')}}" class="container btn btn-dark justify-content-center">
+    Visit Internal Site (Only for IIT Delhi employees with Kerberos login)</a>
+    </nav>
     <nav class="navbar navbar-expand">
         @yield('nav')
     </nav> 
@@ -40,7 +52,7 @@
     <main>
         @yield('content')
     </main>
-    
+
     <footer class="page-footer font-small text-white pt-4" style="background-color: #c21717;">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
@@ -58,6 +70,7 @@
                         <li><a class="text-white" href="{{url('/prediction')}}">Prediction</a></li>
                         <li><a class="text-white" href="{{url('/resources/helplines')}}">Helplines</a></li>
                         <li><a class="text-white" href="{{url('/about')}}">About</a></li>
+                        <li><a class="text-white" href="{{url('/internal')}}">Internal</a></li>
                     </ul>
                 </div>
             </div>

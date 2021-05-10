@@ -19,7 +19,7 @@ About
                 <h2>PRACRITI 2.0</h2>
             </div>
             <div class="card-body">
-                <p class="card-text">PRACRITI, the acronym for Prediction, Resources, and Assessment of CoRona Infections and Transmission in India, is a mobile-friendly web portal that is freely accessible to everyone. It gives detailed state-wise predictions of COVID-19 and aims to provide details of verified resources for COVID-19 patients, including Oxygen cylinders, Hospital beds, Plasma donors, Online consultation, Vaccine availability and Helpline numbers across India. PRACRITI is developed and maintained by a group of volunteers from IIT Delhi. </p>
+                <p class="card-text">PRACRITI, the acronym for Prediction, Response, and Assessment of CoRona Infections and Transmission in India, is a mobile-friendly web portal that is freely accessible to everyone. It gives detailed state-wise predictions of COVID-19 and aims to provide details of verified resources for COVID-19 patients, including Oxygen cylinders, Hospital beds, Plasma donors, Online consultation, Vaccine availability and Helpline numbers across India. PRACRITI is developed and maintained by a group of volunteers from IIT Delhi. </p>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
@@ -34,7 +34,7 @@ About
                 <li class="list-group-item">
                     <h4 class="m-0">Contributers</h4>
                     Ravinder, PhD Research Scholar, Multiphysics & Multiscale Mechanics Research Group, IIT Delhi
-                    <br>Yashwant Lodhi, PhD Research Scholar, Multiphysics & Multiscale Mechanics Research Group, IIT Delhi
+                    <br>Yashwant Lodhi, Project Staff, Multiphysics & Multiscale Mechanics Research Group, IIT Delhi
                     <br>Aditya Singh, BTech First Year Student, IIT Delhi
                     <br>Anurag Gupta, BTech First Year Student, IIT Delhi
                     <br>Asmita Mehta, BTech First Year Student, IIT Delhi

@@ -43,28 +43,28 @@ plot_data(a, key_)
 }
 
 function show_states() {
+    document.getElementById("R0N").innerText=null;
     document.getElementById("india_district_map").style.display = "none";
     document.getElementById("state_chart").style.display = "none";
     document.getElementById("india_state_map").style.display = "block";
-    document.getElementById("select-button").style.display = "block";
-    document.getElementById("select-button-district").style.display = "none";
-    document.getElementById("select-button-statewise-district").style.display = "none";
     plot_data('India', 0)
 }
 
 
 function myFunction(evt, state){
-plot_data(state.id, 0)
+plot_data(state.id, 0);
 // if(state.id != 'Delhi'){
 // show_state_districts(state.id)
 // color_state_districts(state.id, 0)
 // }
+var obj = JSON.parse(localStorage.getItem(state.id.toLowerCase().replace("_"," ")))
+document.getElementById('R0N').innerText=obj[3] ?? "N/A";
 }
 
  
  
 
-function showTooltip(evt, state) {
+function DONTshowTooltip(evt, state) {
 
   let tooltip = document.getElementById("tooltip");
     var obj = JSON.parse(localStorage.getItem(state.id.toLowerCase().replace("_"," ")))
@@ -86,7 +86,7 @@ else{r0 = r0.toFixed(2)}
 
 }
 
-function hideTooltip() {
+function DONThideTooltip() {
   var tooltip = document.getElementById("tooltip");
   tooltip.style.display = "none";
   tooltip.style.padding = 0;

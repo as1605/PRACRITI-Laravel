@@ -228,9 +228,9 @@ x: 0.5
     if (deceased == null || Number.isNaN(deceased) || deceased === 0){deceased = 'N/A';}
     if (active == null || Number.isNaN(active) || active === 0){active = 'N/A';}
 
-    document.getElementById('confirmed').innerHTML = '<p>Confimed<br>' +  confirmed + '</p>'
-    document.getElementById('recovered').innerHTML = '<p>Recovered<br>' +  recovered + '</p>'
-    document.getElementById('deceased').innerHTML = '<p>Deceased<br>' +  deceased + '</p>'
-    document.getElementById('active').innerHTML = '<p>Active<br>' +  active + '</p>'
+    document.getElementById('confirmedN').innerText = confirmed.toLocaleString();
+    document.getElementById('recoveredN').innerText = recovered.toLocaleString();
+    document.getElementById('deceasedN').innerText = deceased.toLocaleString();
+    document.getElementById('activeN').innerText = active.toLocaleString();
 
 }
