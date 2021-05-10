@@ -34,6 +34,7 @@ About
                 <li class="list-group-item">
                     <h4 class="m-0">Contributers</h4>
                     Ravinder, PhD Research Scholar, Multiphysics & Multiscale Mechanics Research Group, IIT Delhi
+                    <br>Yashwant Lodhi, PhD Research Scholar, Multiphysics & Multiscale Mechanics Research Group, IIT Delhi
                     <br>Aditya Singh, BTech First Year Student, IIT Delhi
                     <br>Anurag Gupta, BTech First Year Student, IIT Delhi
                     <br>Asmita Mehta, BTech First Year Student, IIT Delhi
