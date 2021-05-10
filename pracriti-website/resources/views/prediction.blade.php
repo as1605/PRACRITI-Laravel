@@ -4,6 +4,11 @@
 Prediction
 @endsection
 
+@section('logged')
+<a href="{{url('/internal')}}" class="container btn btn-dark justify-content-center">
+    Visit Internal Site (Only for IIT Delhi employees)</a>
+@endsection
+
 @section('nav')
         <div class="container btn-group">      
             <a class="btn btn-danger" href="{{url('/resources')}}">Resources</a>
@@ -40,7 +45,7 @@ Prediction
             
         </div>
     </div>
-    <div> <p class="text-muted"> Last Updated on DD/MM/YYYY</p>
+    <div> <p class="text-muted"> Last Updated on 07/05/2021</p>
     </div>
     <div>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -300,9 +305,11 @@ Prediction
 
 <div class="row">
   <div class="column">
-  <div class="row" style="position:relative; left:65px">
-        <button class="btn btn-secondary" onclick="show_states()">Reset</button> 
-    </div>
+  <div class="row btn-group mb-1" style="position:relative; left:65px">
+        <button class="btn btn-info" onclick="show_states()">Reset</button> 
+        <button class="btn btn-info" onclick="graph_scale='linear';show_states()">Linear Scale</button> 
+        <button class="btn btn-info" onclick="graph_scale='log';show_states()">Logarithmic Scale</button> 
+        </div>
 
     <div class="row" style="animation-delay: 0.5s;" align="center">
 

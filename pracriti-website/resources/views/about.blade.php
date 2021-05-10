@@ -1,7 +1,14 @@
 @extends('layouts.app')
+
 @section('title')
 About
 @endsection
+
+@section('logged')
+<a href="{{url('/internal')}}" class="container btn btn-dark justify-content-center">
+    Visit Internal Site (Only for IIT Delhi employees)</a>
+@endsection
+
 @section('nav')
         <div class="container btn-group">      
             <a class="btn btn-danger" href="{{url('/resources')}}">Resources</a>

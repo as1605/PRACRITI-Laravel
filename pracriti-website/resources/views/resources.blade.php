@@ -4,6 +4,11 @@
 Resources
 @endsection
 
+@section('logged')
+<a href="{{url('/internal')}}" class="container btn btn-dark justify-content-center">
+    Visit Internal Site (Only for IIT Delhi employees)</a>
+@endsection
+
 @section('nav')
         <div class="container btn-group">      
             <a class="btn btn-danger active" href="{{url('/resources')}}">Resources</a>
@@ -17,6 +22,12 @@ Resources
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+            <div class="card my-1">
+                <a target="_blank" href="https://www.cowin.gov.in/home">
+                    <div class="card-header">Govt CoWIN Vaccine Portal</div>
+                </a>
+                <div class="card-body">View live vaccine availability status district-wise pincode-wise</div>
+            </div>
             <div class="card my-1">
                 <a target="_blank" href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/">
                     <div class="card-header">Sprinklr Tweet Dashboard</div>
@@ -65,6 +76,7 @@ Resources
                 </a>
                 <div class="card-body">Govt Verified live Hospital bed availability data</div>
             </div>
+        </div>
     </div>
 </div>
 @endsection

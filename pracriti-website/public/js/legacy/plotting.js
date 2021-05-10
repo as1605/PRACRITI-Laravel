@@ -4,7 +4,8 @@ function Get(url){
   HTTPreq.send(null);
   return HTTPreq.responseText;
 }
-
+ 
+var graph_scale="linear";
 
 //imports
 localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
@@ -183,7 +184,7 @@ var trace3 = {
 
      var layout = {
       xaxis: {range: [d, d2.addDays(38)]},
-      yaxis: {type:log_axis, title: 'Number of cases'},
+      yaxis: {type: graph_scale, title: 'Number of cases'}, // 
       title: name[0].toUpperCase() + name.slice(1) ,
        font : {family:'Cambria',
                 size: 17,

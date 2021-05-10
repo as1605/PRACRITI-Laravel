@@ -34,10 +34,26 @@ Route::get('/resources/helplines', function () {
     return view('helplines');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
+Route::get('/internal', function () {    
+    if(strpos(Request::ip(), "10.")===0) {
+        return view('internal.internal');
+    }
+    return redirect('/');
 });
 
+Route::get('/internal/notices', function () {
+    if(strpos(Request::ip(), "10.")===0) {
+        return redirect('internal.internal');//view('internal.notices');
+    }
+    return redirect('/');
+});
+
+Route::get('/internal/reporting', function () {
+    if(strpos(Request::ip(), "10.")===0) {
+        return redirect('internal.internal');//view('internal.reporting');
+    }
+    return redirect('/');
+});
 
 Route::get('/legacy', function () {
     return view('legacy');

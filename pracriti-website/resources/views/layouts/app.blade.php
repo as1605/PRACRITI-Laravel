@@ -42,8 +42,7 @@
         </div>
     </header>
     <nav class="navbar navbar-expand pb-0">
-    <a href="{{url('/internal')}}" class="container btn btn-dark justify-content-center">
-    Visit Internal Site (Only for IIT Delhi employees with Kerberos login)</a>
+        @yield('logged')
     </nav>
     <nav class="navbar navbar-expand">
         @yield('nav')
