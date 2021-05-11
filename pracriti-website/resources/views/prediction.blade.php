@@ -13,7 +13,7 @@ Prediction
         <div class="container btn-group">      
             <a class="btn btn-danger" href="{{url('/resources')}}">Resources</a>
             <a class="btn btn-danger active" href="{{url('/prediction')}}">Predictions</a>
-            <a class="btn btn-danger" href="{{url('/resources/helplines')}}">Helplines</a>          
+            <a class="btn btn-danger" href="{{url('/resources/helplines')}}">Helplines</a>
             <a class="btn btn-danger" href="{{url('/about')}}">About</a>
         </div>
 @endsection

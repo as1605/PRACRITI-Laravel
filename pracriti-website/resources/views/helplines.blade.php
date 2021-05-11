@@ -18,6 +18,16 @@ Helplines
         </div>
 @endsection
 
+<style>
+  td{
+    text-align:center;
+  }
+
+  th{
+    background-color:#6B6B6B;
+    color:white;
+  }
+</style>
 @section('content')
 <div class="container">
     <table class="table">
@@ -166,6 +176,7 @@ Helplines
           <td>West Bengal</td>
           <td><a href="tel:1800313444222">1800313444222</a>, <a href="tel:03323412600">03323412600</a></td>
         </tr>
+
         <tr>
           <th><center>Sr. No.</center></th>
           <th><center>Name of the Union Territory(UT)</center></th>
@@ -212,5 +223,7 @@ Helplines
           <td><a href="tel:104">104</a></td>
         </tr>
       </table>
+
+      <br>
 </div>
 @endsection

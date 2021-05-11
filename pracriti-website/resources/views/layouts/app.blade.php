@@ -40,19 +40,24 @@
             </a>
             <div class="m-2" style="font-family: 'Samarkan Normal', 'Samarkan', sans-serif;"><h1>PRACRITI 2.0</h1></div>        
         </div>
+        
     </header>
+     
+    
     <nav class="navbar navbar-expand pb-0">
         @yield('logged')
     </nav>
+    
     <nav class="navbar navbar-expand">
-        @yield('nav')
-    </nav> 
+         @yield('nav')
+    </nav>
+    
 
     <main>
         @yield('content')
     </main>
 
-    <footer class="page-footer font-small text-white pt-4" style="background-color: #c21717;">
+    <footer class="page-footer font-small text-white pt-4" style="background-color: #c21717; bottom:0;">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class="col-md-6 mt-md-0 mt-3">
