@@ -42,7 +42,7 @@ var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 var date1 = new Date("2020-03-14");
 var date2 = new Date();
 var Difference_In_Time = date2.getTime() - date1.getTime();
-var days = Math.trunc(Difference_In_Time / (1000 * 3600 * 24)) + 1
+var days = Math.trunc(Difference_In_Time / (1000 * 3600 * 24))
 
 var data_ = {
 "Confirmed": [],
@@ -72,8 +72,12 @@ for(var dist_key in plot_data_actual){
 
 var x = []
 
-var d = new Date("2020-03-14");
-var x = getDates(d, d.addDays(days));
+var d = new Date("2020-03-15");
+var d2 = new Date()
+d2.setDate(d2.getDate()-1);
+d.setHours(2, 0, 0);
+d2.setHours(2, 0, 0);
+var x = getDates(d, d2);
 
 document.getElementById('tester').setAttribute("data-title", name);
 
@@ -87,8 +91,11 @@ var plot_data = JSON.parse(localStorage.getItem('plot_data'));
 
 var x_predicted = []
 
-var d2 = new Date("2021-04-21");
-var x_predicted = getDates(d2, d2.addDays(40));
+var d3 = new Date();
+d3.setDate(d2.getDate()-13);
+d3.setHours(2, 0, 0);
+
+var x_predicted = getDates(d3, d3.addDays(40));
 
 var y_predicted = []
 
