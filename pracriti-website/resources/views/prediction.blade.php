@@ -45,7 +45,7 @@ Prediction
             
         </div>
     </div>
-    <div> <p class="text-muted"> Last Updated on 07/05/2021</p>
+    <div> <p class="text-muted">Last updated on 2021-05-11.</p>
     </div>
     <div>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">

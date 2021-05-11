@@ -27,7 +27,7 @@ About
                 <h2>PRACRITI 2.0</h2>
             </div>
             <div class="card-body">
-                <p class="card-text">PRACRITI, the acronym for Prediction, Response, and Assessment of CoRona Infections and Transmission in India, is a mobile-friendly web portal that is freely accessible to everyone. It gives detailed state-wise predictions of COVID-19 and aims to provide details of verified resources for COVID-19 patients, including Oxygen cylinders, Hospital beds, Plasma donors, Online consultation, Vaccine availability and Helpline numbers across India. PRACRITI is developed and maintained by a group of volunteers from IIT Delhi. </p>
+                <p class="card-text">PRACRITI, the acronym for Prediction, Response and Assessment of CoRona Infections and Transmission in India, is a mobile-friendly web portal that is freely accessible to everyone. It gives detailed state-wise predictions of COVID-19 and aims to provide details of verified resources for COVID-19 patients, including Oxygen cylinders, Hospital beds, Plasma donors, Online consultation, Vaccine availability and Helpline numbers across India. PRACRITI is developed and maintained by a group of volunteers from IIT Delhi. </p>
             </div>
         </div>
         <br/>
@@ -169,7 +169,7 @@ About
         </div>
         <div class="card">
           <div class="card-header py-0" id="headingTen">
-            <h2 class="mb-0 text-cente">
+            <h2 class="mb-0">
               <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
               What is the relevance of PRACRITI to other countries?
               </button>
@@ -187,7 +187,7 @@ About
         <br/>
         <div class="card text-center my-2">
             <div class="card-header">
-                <h2>Credits</h2>
+                <h2>Team</h2>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
@@ -203,14 +203,14 @@ About
                     <h4 class="m-0">Contributers</h4>
                     Ravinder, PhD Research Scholar, Multiphysics & Multiscale Mechanics Research Group, IIT Delhi
                     <br>Yashwant Lodhi, Project Staff, Multiphysics & Multiscale Mechanics Research Group, IIT Delhi
-                    <br>Aditya Singh, Undergraduate, IIT Delhi
-                    <br>Anurag Gupta, Undergraduate, IIT Delhi
-                    <br>Asmita Mehta, Undergraduate, IIT Delhi
-                    <br>Aviral Gupta, Undergraduate, IIT Delhi
-                    <br>Deepit Patil, Undergraduate, IIT Delhi
-                    <br>Sanat Vohra, Undergraduate, IIT Delhi
-                    <br>Shashwat Gokhe, Undergraduate, IIT Delhi
-                    <br>Radhika Agwan, Undergraduate, IIT Delhi
+                    <br>Aditya Singh, Undergraduate Student, IIT Delhi
+                    <br>Anurag Gupta, Undergraduate Student, IIT Delhi
+                    <br>Asmita Mehta, Undergraduate Student, IIT Delhi
+                    <br>Aviral Gupta, Undergraduate Student, IIT Delhi
+                    <br>Deepit Patil, Undergraduate Student, IIT Delhi
+                    <br>Sanat Vohra, Undergraduate Student, IIT Delhi
+                    <br>Shashwat Gokhe, Undergraduate Student, IIT Delhi
+                    <br>Radhika Agwan, Undergraduate Student, IIT Delhi
                 </li>
             </ul>
         </div>

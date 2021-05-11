@@ -40,7 +40,17 @@ Services | Internal
                   Intercom: <a href="tel:011-26596628">6628</a>
                 </li>
                 <li class="list-group-item">
-                  Give Patient medical ID, Name of patient, Medical Booklet Number , Date of Birth, Mobile Number etc,
+                  Give Patient medical ID, Name of patient, Medical Booklet Number , Date of Birth, Mobile Number etc.
+                  <br>Confirm the slot for booking then note down the OPD Number, Time slot, and Slot number in the booklet. 
+                </li>
+                <li class="list-group-item">
+                  At the specified Time slot patient is requested to call the Doctor on the telephone number (Landline number) as provided on 
+                  <a target="_blank" href="https://hospital.iitd.ac.in/people">Hospital Website</a> as well as the same is provided on 
+                  <a target="_blank" href="https://home.iitd.ac.in/administration.php#hospital">IIT Delhi Main Website</a>. 
+                </li>
+                <li class="list-group-item">
+                  Once connected through phone during the reserved slot the Doctor would interact with the patient and will provide the Medical advise and prescribe medicines.
+                  <br>Once done the Patient will have to go to the IIT Delhi Pharmacy counter and collect the medicines.
                 </li>
             </ul>
           </div>
@@ -53,7 +63,7 @@ Services | Internal
               </button>
             </h2>
           </div>
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
               <h5>Security Control Room</h5>Supply of basic needs, ie vegetable, milk, fruit, medicine, etc.
             </div>

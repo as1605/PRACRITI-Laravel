@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('resources');
-    //return view('welcome');
 });
 
 Route::get('/about', function () {
@@ -43,22 +42,22 @@ Route::get('/internal', function () {
 
 Route::get('/internal/notices', function () {
     if(strpos(Request::ip(), "10.")===0) {
-        return redirect('internal.internal');//view('internal.notices');
+        return view('internal.notices');
     }
     return redirect('/');
 });
 
 Route::get('/internal/reporting', function () {
     if(strpos(Request::ip(), "10.")===0) {
-        return redirect('internal.internal');//view('internal.reporting');
+        return view('internal.reporting');
     }
     return redirect('/');
 });
 
-Route::get('/legacy', function () {
-    return view('legacy');
-});
+//Route::get('/legacy', function () {
+//    return view('legacy');
+//});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
