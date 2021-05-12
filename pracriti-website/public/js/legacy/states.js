@@ -28,15 +28,15 @@ function color_states(index){
 	}
 
 
-	var mapping = ['Recovered','Deceased','Confirmed','R0']
-	var names = ['Recovered','Deceased','Confirmed']
+	var mapping = ['Confirmed', 'Active', 'Recovered','Deceased', 'R0']
+	var names = ['Confirmed', 'Active', 'Recovered','Deceased']
 	var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 
-	if (index!=3){
+	if (index!=4){
 		var keys = plot_data_actual
 
-		var max_ = -100
-		var min_ = 1000
+		var max_ = -100000
+		var min_ = 100000000000000
 		for (var k in keys){
 			var item = plot_data_actual[k]
 			if (null!=item || k=='India'){
@@ -69,7 +69,7 @@ function color_states(index){
 		update_scale("","",names[index],index==0)
 	}
 
-	if (index==3){
+	if (index==4){
 		var R0 = JSON.parse(Get('/js/legacy/states_R0.json'))
 		var max_ = -100
 		var min_ = 1000
