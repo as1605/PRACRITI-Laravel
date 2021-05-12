@@ -17,12 +17,6 @@ Route::get('/', function () {
     return view('resources');
 });
 
-//test route
-Route::get('/test', function () {
-    $contents = asset('storage/text.txt');
-
-    return $contents;
-});
 
 Route::get('/about', function () {
     return view('about');
