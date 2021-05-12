@@ -166,6 +166,9 @@ return [
          * Package Service Providers...
          */
 
+        //New Provider for folder structure
+        App\Providers\ConfigServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
