@@ -11,9 +11,9 @@ Reporting | Internal
 
 @section('nav')
         <div class="container btn-group">
-            <a class="btn btn-danger active" href="{{url('/internal')}}">Services</a>
+            <a class="btn btn-danger" href="{{url('/internal')}}">Services</a>
             <a class="btn btn-danger" href="{{url('/internal/notices')}}">Notices</a>
-            <a class="btn btn-danger" href="{{url('/internal/reporting')}}">Reporting</a>          
+            <a class="btn btn-danger active" href="{{url('/internal/reporting')}}">Reporting</a>          
         </div>
 @endsection
 

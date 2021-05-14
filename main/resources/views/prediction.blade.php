@@ -27,19 +27,19 @@ Prediction
 <div class="container">
     <div class="row justify-content-center">
         <div class="container btn-group">
-            <button type="button" class="btn btn-dark p-1" onclick="color_states(3)">
+            <button type="button" class="btn btn-dark p-1" onclick="color_states(4)">
                 R<sub>0</sub><br><span id="R0N" class="badge badge-light"></span>
             </button>
-            <button type="button" class="btn btn-primary p-1" onclick="color_states(2)">
+            <button type="button" class="btn btn-primary p-1" onclick="color_states(0)">
                 Confirmed<br><span id="confirmedN" class="badge badge-light"></span>
             </button>
-            <button type="button" class="btn btn-warning p-1" onclick="color_states(3)">
+            <button type="button" class="btn btn-warning p-1" onclick="color_states(1)">
                 Active<br><span id="activeN" class="badge badge-light"></span>
             </button>
-            <button type="button" class="btn btn-success p-1" onclick="color_states(0)">
+            <button type="button" class="btn btn-success p-1" onclick="color_states(2)">
                 Recovered<br><span id="recoveredN" class="badge badge-light"></span>
             </button>
-            <button type="button" class="btn btn-danger p-1" onclick="color_states(1)">
+            <button type="button" class="btn btn-danger p-1" onclick="color_states(3)">
                 Deceased<br><span id="deceasedN" class="badge badge-light"></span>
             </button>
             

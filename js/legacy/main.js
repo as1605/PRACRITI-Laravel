@@ -127,4 +127,4 @@ for(var item in plot_data_actual){
 //main
 show_states()
 store_data()
-color_states(2)
+color_states(4)

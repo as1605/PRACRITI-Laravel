@@ -1,23 +1,23 @@
 function Get(url){
-  var HTTPreq = new XMLHttpRequest();
-  HTTPreq.open("GET",url,false);
-  HTTPreq.send(null);
-  return HTTPreq.responseText;
+var HTTPreq = new XMLHttpRequest();
+HTTPreq.open("GET",url,false);
+HTTPreq.send(null);
+return HTTPreq.responseText;
 }
 
 //imports
 localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
 
 function update_scale(min_,max_,legend,key_){
-  document.getElementById('label1').innerHTML = min_
-  document.getElementById('label2').innerHTML = max_
-  document.getElementById('legend').innerHTML = legend
-  if (~key_){
-    document.getElementById('state_gradient').innerHTML = '<stop class="stop1" id="stop1" offset="0%"></stop><stop class="stop2" id="stop2" offset="100%"></stop>'
-  }
-  if (key_){
-    document.getElementById('state_gradient').innerHTML = '<stop class="stop1" id="stop1" offset="0%"></stop><stop class="stop3" id="stop2" offset="100%"></stop>'
-  }
+document.getElementById('label1').innerHTML = min_
+document.getElementById('label2').innerHTML = max_
+document.getElementById('legend').innerHTML = legend
+if (~key_){
+	document.getElementById('state_gradient').innerHTML = '<stop class="stop1" id="stop1" offset="0%"></stop><stop class="stop2" id="stop2" offset="100%"></stop>'
+}
+if (key_){
+	document.getElementById('state_gradient').innerHTML = '<stop class="stop1" id="stop1" offset="0%"></stop><stop class="stop3" id="stop2" offset="100%"></stop>'
+}
 }
 
 function color_states(index){
@@ -28,15 +28,15 @@ function color_states(index){
 	}
 
 
-	var mapping = ['Recovered','Deceased','Confirmed','R0']
-	var names = ['Recovered','Deceased','Confirmed']
+	var mapping = ['Confirmed', 'Active', 'Recovered','Deceased', 'R0']
+	var names = ['Confirmed', 'Active', 'Recovered','Deceased']
 	var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 
-	if (index!=3){
+	if (index!=4){
 		var keys = plot_data_actual
 
-		var max_ = -100
-		var min_ = 1000
+		var max_ = -100000
+		var min_ = 100000000000000
 		for (var k in keys){
 			var item = plot_data_actual[k]
 			if (null!=item || k=='India'){
@@ -69,7 +69,7 @@ function color_states(index){
 		update_scale("","",names[index],index==0)
 	}
 
-	if (index==3){
+	if (index==4){
 		var R0 = JSON.parse(Get('/js/legacy/states_R0.json'))
 		var max_ = -100
 		var min_ = 1000

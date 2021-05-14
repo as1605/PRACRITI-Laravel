@@ -42,7 +42,7 @@ var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 var date1 = new Date("2020-03-14");
 var date2 = new Date();
 var Difference_In_Time = date2.getTime() - date1.getTime();
-var days = Math.trunc(Difference_In_Time / (1000 * 3600 * 24)) + 1
+var days = Math.trunc(Difference_In_Time / (1000 * 3600 * 24))
 
 var data_ = {
 "Confirmed": [],
@@ -72,8 +72,12 @@ for(var dist_key in plot_data_actual){
 
 var x = []
 
-var d = new Date("2020-03-14");
-var x = getDates(d, d.addDays(days));
+var d = new Date("2020-03-15");
+var d2 = new Date()
+d2.setDate(d2.getDate()-1);
+d.setHours(2, 0, 0);
+d2.setHours(2, 0, 0);
+var x = getDates(d, d2);
 
 document.getElementById('tester').setAttribute("data-title", name);
 
@@ -87,8 +91,11 @@ var plot_data = JSON.parse(localStorage.getItem('plot_data'));
 
 var x_predicted = []
 
-var d2 = new Date("2021-04-21");
-var x_predicted = getDates(d2, d2.addDays(40));
+var d3 = new Date();
+d3.setDate(d2.getDate()-13);
+d3.setHours(2, 0, 0);
+
+var x_predicted = getDates(d3, d3.addDays(40));
 
 var y_predicted = []
 
@@ -141,61 +148,61 @@ var trace2 = {
       y: data_['Recovered'],
       name: 'Recovered',
       mode: 'lines+markers',
-          marker: {
+         marker: {
         color: "rgb(159,233,155)",},
-     };
+    };
 
 var trace3 = {
-      x: x,
-      y: data_['Deceased'],
-      name: 'Deceased',
-      mode: 'lines+markers',
-          marker: {
+    x: x,
+    y: data_['Deceased'],
+    name: 'Deceased',
+    mode: 'lines+markers',
+        marker: {
         color: "rgb(168,205,252)",},
-     };
+    };
 
-     var trace4 = {
-      x: x_predicted,
-      y: y_predicted,
-      name: 'Predicted (Active)',
-      mode: 'lines+markers',
-          marker: {
+    var trace4 = {
+    x: x_predicted,
+    y: y_predicted,
+    name: 'Predicted (Active)',
+    mode: 'lines+markers',
+        marker: {
         color: 'black',},
-     };
+    };
 
-     var trace5 = {
-      x: x_predicted,
-      y: y_predicted,
-      name: 'Predicted (Confirmed)',
-      mode: 'lines+markers',
-          marker: {
+    var trace5 = {
+    x: x_predicted,
+    y: y_predicted,
+    name: 'Predicted (Confirmed)',
+    mode: 'lines+markers',
+        marker: {
         color: 'black',},
-     };
+    };
 
-     var data = []
-     var log_axis = ''
+    var data = []
+    var log_axis = ''
     if ((draw_all || name==='India')){
     data = [trace0, trace1, trace4];
     log_axis='log'}
 
-     else{
-     data = [trace0, trace5];
-     log_axis='log'}
+    else{
+    data = [trace0, trace5];
+    log_axis='log'}
 
-     var layout = {
-      xaxis: {range: [d, d2.addDays(38)]},
-      yaxis: {type: graph_scale, title: 'Number of cases'}, // 
-      title: name[0].toUpperCase() + name.slice(1) ,
-       font : {family:'Cambria',
+    var layout = {
+    xaxis: {range: [d, d2.addDays(38)]},
+    yaxis: {type: graph_scale, title: 'Number of cases'}, // 
+    title: name[0].toUpperCase() + name.slice(1) ,
+        font : {family:'Cambria',
                 size: 17,
                 weight: 'bold'},
         titlefont: {
     size: 36
-  },
-  annotations: [{
+},
+annotations: [{
     text: subtitle[key_],
-      font: {
-      size: 24,
+    font: {
+    size: 24,
     },
     showarrow: false,
     align: 'center',
@@ -203,8 +210,8 @@ var trace3 = {
     y: 1.13,
     xref: 'paper',
     yref: 'paper',
-  }],
-      legend: {
+}],
+    legend: {
 "orientation": "h",
 xanchor: "center",
 y: -0.4,

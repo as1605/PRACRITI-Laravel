@@ -22,59 +22,59 @@ Resources
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://www.cowin.gov.in/home">
-                    <div class="card-header">Govt CoWIN Vaccine Portal</div>
+                    <div class="card-header p-2 text-center">Govt CoWIN Vaccine Portal</div>
                 </a>
-                <div class="card-body">View live vaccine availability status district-wise pincode-wise</div>
+                <div class="card-body py-2">View live vaccine availability status district-wise pincode-wise</div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/">
-                    <div class="card-header">Sprinklr Tweet Dashboard</div>
+                    <div class="card-header p-2 text-center">Sprinklr Tweet Dashboard</div>
                 </a>
-                <div class="card-body">Statewise Oxygen Supplies, Hospital Beds, Plasma, Food etc live Tweets</div>
+                <div class="card-body py-2">Statewise Oxygen Supplies, Hospital Beds, Plasma, Food etc live Tweets</div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://www.covidindiaresources.com/">
-                    <div class="card-header">CovidResources</div>
+                    <div class="card-header p-2 text-center">CovidResources</div>
                 </a>
-                <div class="card-body">Crowdsourced city-wise Oxygen Supplies, Hospital Beds, Plasma, Food etc</div>
+                <div class="card-body py-2">Crowdsourced city-wise Oxygen Supplies, Hospital Beds, Plasma, Food etc</div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://life.coronasafe.network/">
-                    <div class="card-header">CoronaSafe Life Network</div>
+                    <div class="card-header p-2 text-center">CoronaSafe Life Network</div>
                 </a>
-                <div class="card-body">District-wise verified phone numbers for Oxygen Supplies, Hospital Beds, Medicine, Food etc </div>
+                <div class="card-body py-2">District-wise verified phone numbers for Oxygen Supplies, Hospital Beds, Medicine, Food etc </div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://covidfightclub.org/">
-                    <div class="card-header">Covid Fight Club</div>
+                    <div class="card-header p-2 text-center">Covid Fight Club</div>
                 </a>
-                <div class="card-body">City-wise crowdsourced phone numbers for Oxygen Supplies, Plasma, Hospital Beds, Medicine etc </div>
+                <div class="card-body py-2">City-wise crowdsourced phone numbers for Oxygen Supplies, Plasma, Hospital Beds, Medicine etc </div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://docs.google.com/spreadsheets/d/17TAJ9TNWNXUmDejPKWQanrMk2ltH4w6hjUijuuHn7NU/edit?usp=sharing">
-                    <div class="card-header">FightAgainstCovid Google Sheet</div>
+                    <div class="card-header p-2 text-center">FightAgainstCovid Google Sheet</div>
                 </a>
-                <div class="card-body">Volunteer verified phone numbers for Oxygen Supplies, Hospital Beds, Ambulance, Food etc </div>
+                <div class="card-body py-2">Volunteer verified phone numbers for Oxygen Supplies, Hospital Beds, Ambulance, Food etc </div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://coronabeds.jantasamvad.org/">
-                    <div class="card-header">Delhi Govt Corona Dashboard</div>
+                    <div class="card-header p-2 text-center">Delhi Govt Corona Dashboard</div>
                 </a>
-                <div class="card-body">Govt verified live data for Hospital Beds (Covid Beds, Oxygen Beds, ICU Beds) </div>
+                <div class="card-body py-2">Govt verified live data for Hospital Beds (Covid Beds, Oxygen Beds, ICU Beds) </div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://coviddelhi.com/">
-                    <div class="card-header">Covid Delhi Database</div>
+                    <div class="card-header p-2 text-center">Covid Delhi Database</div>
                 </a>
-                <div class="card-body">Oxygen, Plasma and Hospital Beds Live Data</div>
+                <div class="card-body py-2">Oxygen, Plasma and Hospital Beds Live Data</div>
             </div>
-            <div class="card my-1">
+            <div class="card my-2">
                 <a target="_blank" href="https://covidggn.com/public/pages/gurugram-hospitals">
-                    <div class="card-header">Gurgaon Govt Covid Combat Companion</div>
+                    <div class="card-header p-2 text-center">Gurgaon Govt Covid Combat Companion</div>
                 </a>
-                <div class="card-body">Govt Verified live Hospital bed availability data</div>
+                <div class="card-body py-2">Govt Verified live Hospital bed availability data</div>
             </div>
         </div>
     </div>

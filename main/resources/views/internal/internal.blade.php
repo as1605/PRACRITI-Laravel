@@ -23,15 +23,15 @@ Services | Internal
   <div class="row justify-content-center">
     <div class="col-md-8">
       <div class="accordion py-2" id="accordionExample">
-      <div class="card">
-          <div class="card-header py-1" id="headingOne">
+        <div class="card">
+          <div class="card-header py-1" id="headingNew">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNew" aria-expanded="true" aria-controls="collapseNew">
                 IIT Hospital Tele-Medicine Consultation
               </button>
             </h2>
           </div>
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div id="collapseNew" class="collapse show" aria-labelledby="headingNew" data-parent="#accordionExample">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                   Time: 3 PM to 6 PM (Monday to Friday)
@@ -53,6 +53,123 @@ Services | Internal
                   <br>Once done the Patient will have to go to the IIT Delhi Pharmacy counter and collect the medicines.
                 </li>
             </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header py-1" id="heading0">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                Live Doctor Tele-Consultation
+              </button>
+            </h2>
+          </div>
+          <div id="collapse0" class="collapse" aria-labelledby="heading0" data-parent="#accordionExample">
+            <div class="card-body">
+              List of doctors who have volunteered to offer their consultation services to IIT Delhi community.
+              <ul>
+                <li>Dr. Shobhit Saxena (Critical care intensivist) - 
+                  <a href="https://api.whatsapp.com/send/?phone=917985137933">
+                  7985137933
+                  </a> 
+                </li>
+                <li>Dr. Shruti Desai - 
+                  <a href="tel:9825613425">
+                  9825613425
+                  </a> 
+                </li>
+                <li>Dr. Pranjali Gupta - 
+                  <a href="tel:9953830791">
+                  9953830791
+                  </a> 
+                </li>
+                <li>Dr. Satyam Singh  - 
+                  <a href="tel:9792172469">
+                  9792172469
+                  </a> 
+                </li>
+                <li>Dr. J Aarthi - 
+                  <a href="tel:8447606358">
+                  8447606358
+                  </a> 
+                </li>
+                <li>Dr. Shagun Sood - 
+                  <a href="tel:9650449943">
+                  9650449943
+                  </a> - 
+                  <a href="mailto:drshagunsood@gmail.com">
+                  drshagunsood@gmail.com     
+                  </a>
+                </li>
+                <li>Dr. Shruti - 
+                  <a href="tel:8168304718">
+                  8168304718
+                  </a> 
+                </li>
+                <li>Dr. Richa Sharma - 
+                  <a href="tel:9425615516">
+                  9425615516
+                  </a> 
+                </li>
+                <li>Dr. Anupama Rao - 
+                  <a href="tel:9322108991">
+                  9322108991
+                  </a> 
+                </li>
+                <li>Dr. Anirudh Munjal - 
+                  <a href="tel:7982639008">
+                  7982639008
+                  </a> - 
+                  <a href="mailto:anirudhmunjal52@gmail.com">
+                  anirudhmunjal52@gmail.com
+                  </a>
+                </li>
+                <li>Dr. Ashirwaad Sharma  - 
+                  <a href="tel:9717925605">
+                  9717925605
+                  </a> 
+                </li>
+                <li>Dr. Sukanya Thakur - 
+                  <a href="tel:8586886817">
+                  8586886817
+                  </a> 
+                </li>
+                <li>Dr. R. C. Verma - 
+                  <a href="tel:9839039896">
+                  9839039896
+                  </a> 
+                </li>
+                <li>Dr. Shrey Chandrakar - 
+                  <a href="tel:7224821219">
+                  7224821219
+                  </a> - 
+                  <a href="mailto:shreychandrakar@gmail.com">
+                  shreychandrakar@gmail.com
+                  </a>
+                </li>
+                <li>Dr. Krithika (AIIMS) - 
+                  <a href="tel:9810488850">
+                  9810488850
+                  </a> 
+                </li>
+                <li>Dr. Anjul Kumar - 
+                  <a href="tel:9170773344">
+                  9170773344
+                  </a> 
+                </li>
+                <li>Dr. Muhammad Azhar Masoodi - 
+                  <a href="tel:7006912534">
+                  7006912534</a>,   
+                  <a href="tel:9797204498">
+                  9797204498
+                  </a> 
+                </li>
+                <li>Dr. Anup Agarwal - 
+                  <a href="tel:9891190111">
+                  9891190111
+                  </a> 
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="card">

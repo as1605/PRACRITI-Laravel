@@ -37,6 +37,57 @@ Notices | Internal
             </a>
         </div>
         <div class="card my-1">
+            <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk">
+                <div class="card-header">Covid Tips by Dr Deepak Gupta, AIIMS</div>
+            </a>
+            <div class="card-body">
+                <ul>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811435">
+                    Advice on Steroids, Remdesvir, Anticoagulants, Plasma therapy, Inhaled nebuliser interferons, Favipiravir, Oxygen therapy, Vaccines
+                    </a></li>  
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811444">
+                    Nitric Oxide (NO), Humming, and Blood Thinners
+                    </a></li>  
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811434">
+                    Covid positive even after getting vaccinated?
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811436">
+                    Vaccination during pregnancy?
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811437">
+                    Covid, oxygen and proning
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811442">
+                    Oxygen Crisis Solutions
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811446">
+                    Oxygen therapy at home and low resource setting for COVID-19 
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811445">
+                    Convalescent Plasma Therapy (CPT) : Myths and Facts 
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811439">
+                    Happy Hypoxia - Oxymeter showing low oxygen?
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811441">
+                    Home Care in Covid +ve: What you must know ? (Hit Hard, Hit Early)
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811438">
+                    Keeping Calm
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811440">
+                    Guidelines and SOPs for Quarantine Facilities
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811449">
+                    IITD Covid Health PPT
+                    </a></li>
+                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811443">
+                    One Year With Covid - War is on : Self Lockdown, Vaccination and Masks 
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="card my-1">
             
                 <div class="card-header">UPDATED PROCEDURE/GUIDELINES - FOR ONLINE SUBMISSION OF MEDICAL REIMBURSEMENT CLAIMS FOR SERVING EMPLOYEES</div>
 
