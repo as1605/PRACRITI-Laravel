@@ -122,7 +122,7 @@ for(var item in plot_data_actual){
 }
 
 
-
+document.getElementById('updateN').innerText=Get('/js/legacy/lastupdated');
 
 //main
 show_states()
