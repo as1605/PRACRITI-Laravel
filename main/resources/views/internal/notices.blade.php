@@ -22,75 +22,93 @@ Notices | Internal
     <div class="row justify-content-center">
         <div class="col-md-8">
         <div class="card my-1">
+            <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/dznHaKKRTCfREDE">
+                <div class="card-header p-2 text-center">होम क्वारंटीन और होम आइसोलेशन</div>
+            </a>
+        </div>
+        <div class="card my-1">
+            <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/xz3Sn7sKFy9aLRq">
+                <div class="card-header p-2 text-center">सामान्य COVID 19 दिशानिर्देश</div>
+            </a>
+        </div>
+        <div class="card my-1">
+            <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/gzWAs7d862j6KTD">
+                <div class="card-header p-2 text-center">General COVID -19 Guidelines for Employees</div>
+            </a>
+        </div>
+        <div class="card my-1">
+            <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/pqTNzo8jxCKMEoY">
+                <div class="card-header p-2 text-center">Covid 19 PPT by Board of Hostel Management</div>
+            </a>
+        </div>
+        <div class="card my-1">
             <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/LQpYnFwACYwncPL">
-                <div class="card-header">Reporting of Covid Positive Cases (Internal)</div>
+                <div class="card-header p-2 text-center">Reporting of Covid Positive Cases (Internal)</div>
             </a>
         </div>
         <div class="card my-1">
             <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/ZE8BQX3xGpLaxJY">
-                <div class="card-header">Clinical guidance for management of adult Covid-19 patient</div>
+                <div class="card-header p-2 text-center">Clinical guidance for management of adult Covid-19 patient</div>
             </a>
         </div>
         <div class="card my-1">
             <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/omQe7BmEzPXoW8z">
-                <div class="card-header">Regarding help no for Covid'19 issue patient in IIT Campus</div>
+                <div class="card-header p-2 text-center">Regarding help no for Covid'19 issue patient in IIT Campus</div>
             </a>
         </div>
         <div class="card my-1">
             <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk">
-                <div class="card-header">Covid Tips by Dr Deepak Gupta, AIIMS</div>
+                <div class="card-header p-2 text-center">Covid Tips by Dr Deepak Gupta, AIIMS</div>
             </a>
             <div class="card-body">
                 <ul>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811435">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811435">
                     Advice on Steroids, Remdesvir, Anticoagulants, Plasma therapy, Inhaled nebuliser interferons, Favipiravir, Oxygen therapy, Vaccines
                     </a></li>  
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811444">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811444">
                     Nitric Oxide (NO), Humming, and Blood Thinners
                     </a></li>  
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811434">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811434">
                     Covid positive even after getting vaccinated?
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811436">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811436">
                     Vaccination during pregnancy?
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811437">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811437">
                     Covid, oxygen and proning
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811442">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811442">
                     Oxygen Crisis Solutions
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811446">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811446">
                     Oxygen therapy at home and low resource setting for COVID-19 
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811445">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811445">
                     Convalescent Plasma Therapy (CPT) : Myths and Facts 
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811439">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811439">
                     Happy Hypoxia - Oxymeter showing low oxygen?
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811441">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811441">
                     Home Care in Covid +ve: What you must know ? (Hit Hard, Hit Early)
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811438">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811438">
                     Keeping Calm
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811440">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811440">
                     Guidelines and SOPs for Quarantine Facilities
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811449">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811449">
                     IITD Covid Health PPT
                     </a></li>
-                    <li><a href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811443">
+                    <li><a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/cxXp5SnfGnZmaSk?dir=undefined&openfile=9811443">
                     One Year With Covid - War is on : Self Lockdown, Vaccination and Masks 
                     </a></li>
                 </ul>
             </div>
         </div>
         <div class="card my-1">
-            
-                <div class="card-header">UPDATED PROCEDURE/GUIDELINES - FOR ONLINE SUBMISSION OF MEDICAL REIMBURSEMENT CLAIMS FOR SERVING EMPLOYEES</div>
-
+            <div class="card-header p-2 text-center">UPDATED PROCEDURE/GUIDELINES - FOR ONLINE SUBMISSION OF MEDICAL REIMBURSEMENT CLAIMS FOR SERVING EMPLOYEES</div>
             <div class="card-body">
                 Employee have access through eadmin portal using url:- <a target="_blank" href="https://eadmin.iitd.ac.in/IITD-0/login">https://eadmin.iitd.ac.in/IITD-0/login</a>
             <br>Click on the eadmin and logon with your kerberos credentials

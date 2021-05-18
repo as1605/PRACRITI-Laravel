@@ -7,7 +7,7 @@ function Get(url){
 }
 
 //imports
-localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
+//localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
 
 var getJSON = function(url, callback) {
     var xhr = new XMLHttpRequest();
@@ -24,14 +24,14 @@ var getJSON = function(url, callback) {
     xhr.send();
 };
 
-getJSON('http://query.yahooapis.com/v1/public/yql?q=select%20%2a%20from%20yahoo.finance.quotes%20WHERE%20symbol%3D%27WRC%27&format=json&diagnostics=true&env=store://datatables.org/alltableswithkeys&callback',
-function(err, data) {
-  if (err !== null) {
-    alert('Something went wrong: ' + err);
-  } else {
-    alert('Your query count: ' + data.query.count);
-  }
-});
+//getJSON('http://query.yahooapis.com/v1/public/yql?q=select%20%2a%20from%20yahoo.finance.quotes%20WHERE%20symbol%3D%27WRC%27&format=json&diagnostics=true&env=store://datatables.org/alltableswithkeys&callback',
+//function(err, data) {
+//  if (err !== null) {
+//    alert('Something went wrong: ' + err);
+//  } else {
+//    alert('Your query count: ' + data.query.count);
+//  }
+//});
 
 
 // //functions
@@ -64,45 +64,44 @@ document.getElementById('R0N').innerText=obj[3] ?? "N/A";
  
  
 
-function DONTshowTooltip(evt, state) {
+// function DONTshowTooltip(evt, state) {
+//   let tooltip = document.getElementById("tooltip");
+//     var obj = JSON.parse(localStorage.getItem(state.id.toLowerCase().replace("_"," ")))
+//     if(obj != null){
+//     var r0 = obj[3]
+// if(r0 == undefined){r0='N/A';}
+// else{r0 = r0.toFixed(2)}
 
-  let tooltip = document.getElementById("tooltip");
-    var obj = JSON.parse(localStorage.getItem(state.id.toLowerCase().replace("_"," ")))
-    if(obj != null){
-    var r0 = obj[3]
-if(r0 == undefined){r0='N/A';}
-else{r0 = r0.toFixed(2)}
+//   tooltip.innerHTML = state.id[0].toUpperCase() + state.id.slice(1) + '\u000d' + '\u000d' + "Confirmed: "+obj[0] +  '\u000d' + "R<sub>0</sub>: "+r0
+//   }
+//   else{
+//       tooltip.innerHTML = state.id[0].toUpperCase() + state.id.slice(1)
+//     }
+//   tooltip.style.backgroundColor='white';
+//   tooltip.style.display = "block";
+//   tooltip.style.padding = "5px";
+//   tooltip.style.left = evt.pageX + 10 + 'px';
+//   tooltip.style.top = evt.pageY + 10 + 'px';
 
-  tooltip.innerHTML = state.id[0].toUpperCase() + state.id.slice(1) + '\u000d' + '\u000d' + "Confirmed: "+obj[0] +  '\u000d' + "R<sub>0</sub>: "+r0
-  }
-  else{
-      tooltip.innerHTML = state.id[0].toUpperCase() + state.id.slice(1)
-    }
-  tooltip.style.backgroundColor='white';
-  tooltip.style.display = "block";
-  tooltip.style.padding = "5px";
-  tooltip.style.left = evt.pageX + 10 + 'px';
-  tooltip.style.top = evt.pageY + 10 + 'px';
+// }
 
-}
-
-function DONThideTooltip() {
-  var tooltip = document.getElementById("tooltip");
-  tooltip.style.display = "none";
-  tooltip.style.padding = 0;
-}
+// function DONThideTooltip() {
+//   var tooltip = document.getElementById("tooltip");
+//   tooltip.style.display = "none";
+//   tooltip.style.padding = 0;
+// }
  
 
 
 function store_data(){
-var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
+//var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 dict_key = ["Confirmed", "Recovered", "Deceased"]
 
 // var date1 = new Date("2020-03-14");
 // var date2 = new Date();
 // var Difference_In_Time = date2.getTime() - date1.getTime();
 // var days = Math.trunc(Difference_In_Time / (1000 * 3600 * 24))
-var R0 = JSON.parse(Get('/js/legacy/states_R0.json'))
+//var R0 = JSON.parse(Get('/js/legacy/states_R0.json'))
 
 for(var item in plot_data_actual){
     var item_data = plot_data_actual[item]
@@ -122,7 +121,7 @@ for(var item in plot_data_actual){
 }
 
 
-document.getElementById('updateN').innerText=Get('/js/legacy/lastupdated');
+//document.getElementById('updateN').innerText=Get('/js/legacy/lastupdated');
 
 //main
 show_states()

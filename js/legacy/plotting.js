@@ -8,7 +8,7 @@ function Get(url){
 var graph_scale="linear";
 
 //imports
-localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
+//localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
 
 
 
@@ -37,7 +37,7 @@ for(var k=0;k<all_states.length;++k){
     if(name == all_states[k].id){draw_all = true;}
 }
 
-var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
+//var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 
 var date1 = new Date("2020-03-14");
 var date2 = new Date();
@@ -86,8 +86,8 @@ var subtitle = ['','','','','','']
 
 filenames = ['/js/legacy/c01_r0.json']
 
-localStorage.setItem('plot_data',Get(filenames[key_]))
-var plot_data = JSON.parse(localStorage.getItem('plot_data'));
+//localStorage.setItem('plot_data',Get(filenames[key_]))
+//var plot_data = JSON.parse(localStorage.getItem('plot_data'));
 
 var x_predicted = []
 
@@ -102,14 +102,14 @@ var y_predicted = []
 if(name === 'India'){
 
 for(var k=0;k<all_states.length;++k){
-for(var dist_key in plot_data){
+for(var dist_key in plot_data_var){
     if(dist_key.toLowerCase() === all_states[k].id.toLowerCase()){
-     for(var j = 0; j<plot_data[dist_key].length;++j){
+     for(var j = 0; j<plot_data_var[dist_key].length;++j){
          if(y_predicted.length < 39){
-             y_predicted.push(plot_data[dist_key][j])
+             y_predicted.push(plot_data_var[dist_key][j])
           }
           else{
-             y_predicted[j] = y_predicted[j] +  plot_data[dist_key][j]
+             y_predicted[j] = y_predicted[j] +  plot_data_var[dist_key][j]
             }
      }
     }
@@ -118,9 +118,9 @@ for(var dist_key in plot_data){
 }
 
 else{
-for(var dist_key in plot_data){
+for(var dist_key in plot_data_var){
     if(dist_key.toLowerCase() === name.toLowerCase()){
-     var y_predicted = plot_data[dist_key]
+     var y_predicted = plot_data_var[dist_key]
     }
 }
 }

@@ -6,7 +6,7 @@ return HTTPreq.responseText;
 }
 
 //imports
-localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
+//localStorage.setItem('plot_data_actual',Get('/js/legacy/timeseries.json'))
 
 function update_scale(min_,max_,legend,key_){
 document.getElementById('label1').innerHTML = min_
@@ -30,7 +30,7 @@ function color_states(index){
 
 	var mapping = ['Confirmed', 'Active', 'Recovered','Deceased', 'R0']
 	var names = ['Confirmed', 'Active', 'Recovered','Deceased']
-	var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
+	//var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 
 	if (index!=4){
 		var keys = plot_data_actual
@@ -70,7 +70,7 @@ function color_states(index){
 	}
 
 	if (index==4){
-		var R0 = JSON.parse(Get('/js/legacy/states_R0.json'))
+		//var R0 = JSON.parse(Get('/js/legacy/states_R0.json'))
 		var max_ = -100
 		var min_ = 1000
 		for (var k in R0){

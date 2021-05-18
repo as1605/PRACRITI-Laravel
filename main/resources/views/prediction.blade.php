@@ -25,6 +25,11 @@ Prediction
 	.stop2 {stop-color: red;}
 	.stop3 {stop-color: rgb(0,255,0);}
 </style>
+<script>
+	var plot_data_actual = {!! Http::get("http://10.17.51.100:8787/PRACRITIAPP/timeseries.json/")->body() !!} ;
+	var R0 = {!! Http::get('http://10.17.51.100:8787/PRACRITIAPP/states_R0.json')->body() !!} ;
+	var plot_data_var = {!! Http::get('http://10.17.51.100:8787/PRACRITIAPP/c01_r0.json/')->body() !!} ;
+</script>
 
 <div class="container">
   <div class="row justify-content-center">
@@ -46,7 +51,11 @@ Prediction
 			</button>
 		</div>
 	</div>
-	<div class="text-muted text-center"><samp id="updateN"></samp></div>
+	<div class="text-muted text-center">
+		<samp id="updateN">
+			{!! Http::get('http://10.17.51.100:8787/PRACRITIAPP/lastupdated/')->body() !!}
+		</samp>
+	</div>
 	<div class="row">
 		<div class="column">
 			<div class="row btn-group mb-1" style="position:relative; left:65px">
