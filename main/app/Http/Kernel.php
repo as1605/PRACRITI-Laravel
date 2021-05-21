@@ -43,7 +43,11 @@ class Kernel extends HttpKernel
             'throttle:60,1',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
-    ];
+	
+	'OAuthMiddleware'=>[
+            \App\Http\Middleware\OAuthMiddleware::class,
+        ],
+];
 
     /**
      * The application's route middleware.
