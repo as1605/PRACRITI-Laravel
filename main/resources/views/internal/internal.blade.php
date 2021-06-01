@@ -24,14 +24,47 @@ Services | Internal
     <div class="col-md-8">
       <div class="accordion py-2" id="accordionExample">
         <div class="card">
-          <div class="card-header py-1" id="headingNew">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNew" aria-expanded="true" aria-controls="collapseNew">
-                IIT Hospital Tele-Medicine Consultation
-              </button>
-            </h2>
+          <div class="card-header py-1" id="heading1">
+          <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            Resident Support Group
+          </button>
           </div>
-          <div id="collapseNew" class="collapse show" aria-labelledby="headingNew" data-parent="#accordionExample">
+          <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
+            <div class="card-body">
+            Resident Support Group is a community formed by residents of IIT Delhi to support each other and aid with Emotional support, Grocery delivery, meal delivery, medicine delivery, booking tests, booking Doctor Consultations, arranging ambulance/ transport, facilitate searching for bed and oxygen support.
+            The residents may connect to any of the volunteers in case of any support required.
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Swapna Mishra</strong> (Email ID: <a href="mailto:swapnamishra@yahoo.com">swapnamishra@yahoo.com</a> Contact No.: <a href="tel:9958007453">9958007453</a>)
+                <br>Offered to assist with Emotional support, Grocery delivery, meal delivery, medicine delivery, booking tests & booking doctor consultation.
+              </li>
+              <li class="list-group-item">
+                <strong>Paras Gupta</strong> (Email ID: <a href="mailto:Paras.Gupta@mech.iitd.ac.in">Paras.Gupta@mech.iitd.ac.in</a> Contact No.: <a href="tel:9540246784">9540246784</a>)
+                <br>Offered to assist with Grocery delivery, meal delivery, medicine delivery, booking tests, booking doctor consultation, arranging ambulance/transport support, facilitate searching for bed in hospital & facilitate arranging oxygen support
+              </li>
+              <li class="list-group-item">
+                <strong>Shraddha Marathe</strong> (Email ID: <a href="mailto:maratheshraddha@gmail.com">maratheshraddha@gmail.com</a> Contact No.: <a href="tel:9999061085">9999061085</a>)
+                <br>Offered to assist with Emotional support, Grocery delivery, meal delivery, medicine delivery, booking tests, booking doctor consultation, arranging ambulance/transport support, facilitate searching for bed in hospital & facilitate arranging oxygen support
+              </li>
+              <li class="list-group-item">
+                <strong>Prabha Shahu</strong> (Email ID: <a href="mailto:prabhashahu64@gmail.com">prabhashahu64@gmail.com</a> Contact No.: <a href="tel:8745027483">8745027483</a>)
+                <br>Offered to assist with Emotional support ,medicine delivery, booking tests, booking doctor consultation, arranging ambulance/transport support & facilitate searching for bed in hospital.
+              </li>
+              <li class="list-group-item">
+                <strong>Amita Deshmukh</strong> (Email ID: <a href="mailto:amitasgd67@gmail.com">amitasgd67@gmail.com</a> Contact No.: <a href="tel:9891520845">9891520845</a>)
+                <br>Offered to assist with meal delivery.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header py-1" id="headingNew">
+            <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseNew" aria-expanded="true" aria-controls="collapseNew">
+              IIT Hospital Tele-Medicine Consultation
+            </button>
+          </div>
+          <div id="collapseNew" class="collapse" aria-labelledby="headingNew" data-parent="#accordionExample">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                   Time: 3 PM to 6 PM (Monday to Friday)
@@ -57,11 +90,9 @@ Services | Internal
         </div>
         <div class="card">
           <div class="card-header py-1" id="heading0">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
-                Live Doctor Tele-Consultation
-              </button>
-            </h2>
+            <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
+              Live Doctor Tele-Consultation
+            </button>
           </div>
           <div id="collapse0" class="collapse" aria-labelledby="heading0" data-parent="#accordionExample">
             <div class="card-body">
@@ -174,11 +205,9 @@ Services | Internal
         </div>
         <div class="card">
           <div class="card-header py-1" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Covid Patient Assistance Supply
-              </button>
-            </h2>
+            <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Covid Patient Assistance Supply
+            </button>
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
@@ -199,11 +228,9 @@ Services | Internal
         </div>
         <div class="card">
           <div class="card-header py-1" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Medical Aid
-              </button>
-            </h2>
+            <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Medical Aid
+            </button>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <ul class="list-group list-group-flush">
@@ -226,11 +253,9 @@ Services | Internal
         </div>
         <div class="card">
           <div class="card-header py-1" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Groceries
-              </button>
-            </h2>
+            <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Groceries
+            </button>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body pb-0">

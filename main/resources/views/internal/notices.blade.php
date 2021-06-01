@@ -22,6 +22,11 @@ Notices | Internal
     <div class="row justify-content-center">
         <div class="col-md-8">
         <div class="card my-1">
+            <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/xnEpdYKznDfm7Y3">
+                <div class="card-header p-2 text-center">Pracriti Resources in PDF Downloadable</div>
+            </a>
+        </div>
+        <div class="card my-1">
             <a target="_blank" href="https://owncloud.iitd.ac.in/nextcloud/index.php/s/dznHaKKRTCfREDE">
                 <div class="card-header p-2 text-center">होम क्वारंटीन और होम आइसोलेशन</div>
             </a>
