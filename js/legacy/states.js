@@ -16,8 +16,9 @@ if (~key_){
 	document.getElementById('state_gradient').innerHTML = '<stop class="stop1" id="stop1" offset="0%"></stop><stop class="stop2" id="stop2" offset="100%"></stop>'
 }
 if (key_){
-	document.getElementById('state_gradient').innerHTML = '<stop class="stop1" id="stop1" offset="0%"></stop><stop class="stop3" id="stop2" offset="100%"></stop>'
-}
+	pos = Math.max((1-min_)/(max_-min_)*100, 0)
+    document.getElementById('state_gradient').innerHTML = '<stop class="stop3" id="stop1" offset="0%"></stop><stop class="stop1" id="stop2" offset="'+pos+'%"></stop><stop class="stop2" id="stop3" offset="100%"></stop>'
+  }
 }
 
 function color_states(index){
@@ -83,9 +84,9 @@ function color_states(index){
 		for (var k in R0){
 			var val = R0[k]
 			if (k!='Total'){
-				document.getElementById(k).style.fill = yellow_red_scale(val,min_,max_)
+				document.getElementById(k).style.fill = green_yellow_red_scale(val, min_, max_)
 			}
 		}
-		update_scale(min_.toFixed(2),max_.toFixed(2),'R\u2080')
+		update_scale(min_.toFixed(2),max_.toFixed(2),'R\u2080', 0==0)
 	}
 }
