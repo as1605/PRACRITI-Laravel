@@ -21,28 +21,27 @@ if (key_){
 }
 
 function color_states(index){
-
 	var items = document.getElementsByClassName('state')
 	for (var i=0; i<items.length; ++i){
 		items[i].style.fill = "rgb(255,255,255)";
 	}
-
-
 	var mapping = ['Confirmed', 'Active', 'Recovered','Deceased', 'R0']
 	var names = ['Confirmed', 'Active', 'Recovered','Deceased']
-	//var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
-
+//	var plot_data_actual = JSON.parse(localStorage.getItem('plot_data_actual'));
 	if (index!=4){
 		var keys = plot_data_actual
-
 		var max_ = -100000
 		var min_ = 100000000000000
 		for (var k in keys){
-			var item = plot_data_actual[k]
-			if (null!=item || k=='India'){
-				var end = item[mapping[index]].length-1
-				max_ = Math.max(max_,plot_data_actual[k][mapping[index]][end])
-				min_ = Math.min(min_,plot_data_actual[k][mapping[index]][end])
+			if (k=='India') {
+			}
+			else {
+				var item = plot_data_actual[k]
+				if (null!=item || k=='India'){
+					var end = item[mapping[index]].length-1
+					max_ = Math.max(max_,plot_data_actual[k][mapping[index]][end])
+					min_ = Math.min(min_,plot_data_actual[k][mapping[index]][end])
+				}
 			}
 		}
 		for (var k in keys){
@@ -50,14 +49,14 @@ function color_states(index){
 			if (null!=item){
 				var end = item[mapping[index]].length-1
 				var val = item[mapping[index]][end]
-				if (index==0){
+				if (index==2){
 					item = document.getElementById(k)
 					if (item!=null){
 						item.style.fill = yellow_green_scale(val,min_,max_)
 					} else {
 					}
 				}
-				if (index!=0){
+				if (index!=2){
 					item = document.getElementById(k)
 					if (item!=null){
 						item.style.fill = yellow_red_scale(val,min_,max_)
@@ -66,19 +65,21 @@ function color_states(index){
 				}
 			}
 		}
-		update_scale("","",names[index],index==0)
+		update_scale("","",names[index],index==2)
 	}
-
 	if (index==4){
-		//var R0 = JSON.parse(Get('/js/legacy/states_R0.json'))
+		//var R0 = JSON.parse(Get('states_R0.json'))
 		var max_ = -100
 		var min_ = 1000
 		for (var k in R0){
-			var val = R0[k]
-			min_ = Math.min(min_,val)
-			max_ = Math.max(max_,val)
+			if (k=='India') {
+			}
+			else {
+				var val = R0[k]
+				min_ = Math.min(min_,val)
+				max_ = Math.max(max_,val)
+			}
 		}
-
 		for (var k in R0){
 			var val = R0[k]
 			if (k!='Total'){
@@ -87,7 +88,4 @@ function color_states(index){
 		}
 		update_scale(min_.toFixed(2),max_.toFixed(2),'R\u2080')
 	}
-
-
-
 }
